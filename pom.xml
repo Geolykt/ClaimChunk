@@ -5,7 +5,31 @@
   <groupId>com.cjburkey</groupId>
   <artifactId>claimchunk</artifactId>
   <version>0.0.23-SNAPSHOT_EXPL_FIRE</version>
-  <packaging>jar</packaging>
+
+  <!-- Information that isn't really required but is still nice -->
+  <name>ClaimChunk</name>
+  <url>https://github.com/cjburkey01/ClaimChunk</url>
+  <inceptionYear>2017</inceptionYear>
+  <description>A Chunk-based claiming plugin</description>
+  <distributionManagement>
+    <downloadUrl>https://github.com/cjburkey01/ClaimChunk/releases</downloadUrl>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>geolykt-maven</id> <!-- My personal repo -->
+      <url>https://geolykt.de/maven/</url>
+    </repository>
+  </distributionManagement>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/cjburkey01/ClaimChunk/issues</url>
+  </issueManagement>
+  <licenses>
+    <license>
+      <name>MIT License (Expat)</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+      <distribution>manual</distribution>
+    </license>
+  </licenses>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
